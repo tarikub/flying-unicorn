@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "flying-unicorns"
+version = "3.0.0"
+description = ""
+authors = ["Tariku T. <tt@unimail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+twine = "^4.0.2"
+colorama = "0.4.6"
+rich = "^13.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

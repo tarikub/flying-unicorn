@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  flying.unicorn:
+    image: flying.unicorn
+    build:
+      context: .
+      dockerfile: ./Dockerfile
